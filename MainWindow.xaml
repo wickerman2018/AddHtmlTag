@@ -9,8 +9,9 @@
     <Grid>
         <TextBox x:Name="tbSourse" HorizontalAlignment="Left" Height="480" Margin="10,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="722"/>
         <Button x:Name="btnPaste" Content="Вставить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="btnPaste_Click" />
-        <Button x:Name="btnConvert" Content="Абзацы" HorizontalAlignment="Left" Margin="177,10,0,0" VerticalAlignment="Top" Width="68" Click="btnConvert_Click" />
+        <Button x:Name="btnConvert" Content="Абзацы" HorizontalAlignment="Left" Margin="274,10,0,0" VerticalAlignment="Top" Width="68" Click="btnConvert_Click" />
         <Button x:Name="btnCopy" Content="Копировать" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="75" Click="btnCopy_Click" />
+        <Button x:Name="btnClear" Content="Очистить" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Width="75" Click="btnClear_Click" />
         <Button x:Name="btnB" Content="Bold" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="42"  Click="btnB_Click"/>
         <Button x:Name="btnI" Content="Itallic" HorizontalAlignment="Left" Margin="57,35,0,0" VerticalAlignment="Top" Width="47" Click="btnI_Click"/>
         <Button x:Name="btnStrike" Content="Strike" HorizontalAlignment="Left" Margin="109,35,0,0" VerticalAlignment="Top" Width="42" Click="btnStrike_Click"/>
