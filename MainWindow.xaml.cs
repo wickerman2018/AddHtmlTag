@@ -104,5 +104,10 @@ namespace AddHtmlTag
         {
             tbSourse.Text = tbSourse.Text.Replace(Environment.NewLine, "</br>" + Environment.NewLine);
         }
+
+        private void btnAddAuthor_Click(object sender, RoutedEventArgs e)
+        {
+            tbSourse.AppendText(Environment.NewLine + "<br />Автор: <a href=\"mailto:" + tbEmail.Text + "\">" + tbAuthor.Text + "</a>");
+        }
     }
 }
