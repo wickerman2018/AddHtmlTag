@@ -114,5 +114,25 @@ namespace AddHtmlTag
         {
             tbSourse.Clear();
         }
+
+        private void btnH1_Click(object sender, RoutedEventArgs e)
+        {
+            AddTagD("h1");
+        }
+
+        private void btnH2_Click(object sender, RoutedEventArgs e)
+        {
+            AddTagD("h2");
+        }
+
+        private void btnH3_Click(object sender, RoutedEventArgs e)
+        {
+            AddTagD("h3");
+        }
+
+        private void btnH4_Click(object sender, RoutedEventArgs e)
+        {
+            AddTagD("h4");
+        }
     }
 }

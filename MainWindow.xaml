@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AddHtmlTag"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="750">
+        Title="Подготовка текста для публикации в блоге" Height="650" Width="750">
     <Grid>
         <TextBox x:Name="tbSourse" HorizontalAlignment="Left" Height="480" Margin="10,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="722"/>
         <Button x:Name="btnPaste" Content="Вставить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="btnPaste_Click" />
@@ -27,5 +27,9 @@
         <Label x:Name="lbEmail" Content="E-mail" HorizontalAlignment="Left" Margin="251,565,0,0" VerticalAlignment="Top" Width="94"/>
         <TextBox x:Name="tbEmail" HorizontalAlignment="Left" Height="23" Margin="321,569,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="168"/>
         <Button x:Name="btnAddAuthor" Content="Добавить автора" HorizontalAlignment="Left" Margin="508,567,0,0" VerticalAlignment="Top" Width="119" Click="btnAddAuthor_Click" />
+        <Button x:Name="btnH1" Content="H1" HorizontalAlignment="Left" Margin="585,35,0,0" VerticalAlignment="Top" Width="30"  Click="btnH1_Click"/>
+        <Button x:Name="btnH2" Content="H2" HorizontalAlignment="Left" Margin="620,35,0,0" VerticalAlignment="Top" Width="30"  Click="btnH2_Click"/>
+        <Button x:Name="btnH3" Content="H3" HorizontalAlignment="Left" Margin="655,35,0,0" VerticalAlignment="Top" Width="30"  Click="btnH3_Click"/>
+        <Button x:Name="btnH4" Content="H4" HorizontalAlignment="Left" Margin="690,35,0,0" VerticalAlignment="Top" Width="30"  Click="btnH4_Click"/>
     </Grid>
 </Window>
